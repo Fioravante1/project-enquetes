@@ -1,6 +1,6 @@
 export interface HttpResponse {
   statusCode: number
-  body: any
+  body: object
 }
 
 export interface HttpRequest {
