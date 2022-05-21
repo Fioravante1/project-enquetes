@@ -1,5 +1,5 @@
 export default {
-  preset: 'ts-jest',
+  preset: ['ts-jest', '@shelf/jest-mongodb'],
   roots: [
     '<rootDir>/src'
   ],
