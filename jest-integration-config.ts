@@ -1,5 +1,5 @@
 export default {
-  preset: ['ts-jest', '@shelf/jest-mongodb'],
+  preset: '@shelf/jest-mongodb',
   testMatch: [
     '**/*.test.ts'
   ],
